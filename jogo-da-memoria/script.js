@@ -7,7 +7,7 @@ let lockBoard = false; //trancar tabuleiro
 function flipCard() {
     if(lockBoard) return;
     if(this === firsCard) return;
-    
+
     this.classList.add('flip');
     if(!hasFlippedCard) {
         hasFlippedCard = true;
@@ -40,12 +40,31 @@ function disableCards() {
 
 //função que desvira as cartas
 function unflipCards() {
+    lockBoard = true;
+
     setTimeout(() => {
         firsCard.classList.remove('flip');
         secondCard.classList.remove('flip');
-    }, 1500)
+
+        restBoard();
+    }, 1500);
 }
 
+//função que reseta o tabuleiro
+function restBoard() {
+    [hasFlippedCard, lockBoard] = [false, false];
+    [firsCard, secondCard] = [null, null];
+}
+
+//função que embaralha as cartas
+(function shuffle() {
+    cards.forEach((card) => {
+        let ramdomPosition = Math.floor(Math.random() * 12);
+        card.style.order = ramdomPosition;
+    })
+})();
+
+//adiciona evento de clique na carta
 cards.forEach((card) => {
     card.addEventListener('click', flipCard)
-})
+});
