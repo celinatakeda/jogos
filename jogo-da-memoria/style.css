@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(188, 248, 228);
+}
+
+.memory-game {
+    height: 640px;
+    width: 640;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px; /* perspectiva do usuário no eixo z, quanto maior, maior o efeito da perspectiva */
+}
