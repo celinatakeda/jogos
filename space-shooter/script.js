@@ -26,7 +26,7 @@ function moveUp() {
         return
     } else {
         let position = parseInt(topPosition);
-        position -= 50;
+        position -= 25;
         yourShip.style.top = `${position}px`;
     }
 }
@@ -34,11 +34,11 @@ function moveUp() {
 //função de descer
 function moveDown() {
     let topPosition = getComputedStyle(yourShip).getPropertyValue('top');
-    if(topPosition === "500px"){
+    if(topPosition === "510px"){
         return
     } else {
         let position = parseInt(topPosition);
-        position += 50;
+        position += 25;
         yourShip.style.top = `${position}px`;
     }
 }
