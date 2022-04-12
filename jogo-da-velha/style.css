@@ -1,10 +1,12 @@
 body {
     text-align: center;
+    background: linear-gradient(236.85deg, #ca9044 27.26%, #e2b2c8 96.03%);
 }
 
 .quadrado {
     text-align: center;
     width: 50px;
+    height: 50px;
     background: #eeeeee;
     display: inline-block;
     padding: 40px; 
@@ -15,8 +17,8 @@ body {
 }
 
 .jogador, .vencedor {
-    font-size: 32px;
-    margin-top: 10px;
+    font-size: 28px;
+    margin-top: 8px;
 }
 
 button {
