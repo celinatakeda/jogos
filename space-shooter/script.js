@@ -34,7 +34,7 @@ function moveUp() {
 //função de descer
 function moveDown() {
     let topPosition = getComputedStyle(yourShip).getPropertyValue('top');
-    if(topPosition === "510px"){
+    if(topPosition === "500px"){
         return
     } else {
         let position = parseInt(topPosition);

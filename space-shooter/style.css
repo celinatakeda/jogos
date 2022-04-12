@@ -21,7 +21,7 @@ body {
     position: relative;
     color: white;
     left: 7rem;
-    top: 0;
+    top: 0px;
 }
 
 .start-button {
@@ -32,12 +32,12 @@ body {
     cursor: pointer;
 }
 
-.play-shooter {
-    position: relative; 
+.player-shooter {
+    position: relative;
     height: 60px;
     width: 70px;
     left: 20px;
-    top: 250px;
+    top: 250px
 }
 
 .laser {
@@ -59,7 +59,7 @@ body {
 
 .dead-alien {
     height: 60px;
-    width: 70;
+    width: 70px;
     position: relative;
     opacity: 0;
 }
