@@ -1,2 +1,11 @@
-# jogos
- Recriando joguinnhos
+# Recriando joguinhos
+
+## Tecnologia
+
+- HTML
+
+- CSS
+
+- JavaScript
+
+
