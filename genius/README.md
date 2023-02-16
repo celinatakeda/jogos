@@ -16,6 +16,6 @@ Funções criadas:
   - playGame() - função de início de jogo
  
  ## Visual do projeto
- <p>
-  <img src=".github/genius.png" width=500>
+ <p align="center">
+  <img src=".github/genius.png" width=800>
  </p>
