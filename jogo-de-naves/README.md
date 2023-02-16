@@ -10,7 +10,7 @@ Usando framework JQuery collision, para as animações de colisões entre os per
 
 Para o som do jogo foi utilizado Javascript puro.
 
-<p align="center">
+<p>
   <img src=".github/jogoDeNave.png">
 </p>
 
