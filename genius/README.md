@@ -15,3 +15,6 @@ Funções criadas:
   - gameOver() - função para game over
   - playGame() - função de início de jogo
  
+ <p>
+  <img src=".github/genius.png">
+ </p>
