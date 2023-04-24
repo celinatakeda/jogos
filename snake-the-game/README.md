@@ -5,5 +5,6 @@ Reproduzindo o jogo da cobrinha com a instrutora Gabriela Pinheiro.
  HTML, CSS e JavaScript.
 
 ## 
+<p align="center">
     <img src=".github/snakeGame.png" width=300>
 </P>
