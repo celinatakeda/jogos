@@ -1,7 +1,7 @@
 # Jogo da cobrinha
 Reproduzindo o jogo da cobrinha com a instrutora Gabriela Pinheiro.
 
-# Teconologias utilizadas 
+## Teconologias utilizadas 
  HTML, CSS e JavaScript.
 
 <p align="center">
