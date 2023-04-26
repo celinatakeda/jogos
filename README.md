@@ -1,6 +1,5 @@
 # Recriando joguinhos
-
-## Tecnologia
+Tecnologias utilizadas
 
 - HTML
 
